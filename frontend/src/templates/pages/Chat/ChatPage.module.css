@@ -1,0 +1,104 @@
+.ChatWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    height: calc(100vh - 175px);
+}
+
+.UsersWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100% - 10px);
+    overflow-y: scroll;
+    width: 25%;
+    background-color: rgb(24, 31, 56);
+    border-radius: 25px 0 0 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.AchieveWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100% - 25px);
+    width: 75%;
+    margin-left: 5px;
+    background-color: rgb(24, 31, 56);
+    border-radius: 0 25px 25px 0;
+    padding: 10px;
+    padding-bottom: 15px;
+    overflow-y: scroll;
+}
+
+.AchieveWrapper h2 {
+    color: white;
+    font-size: 3vw;
+}
+
+
+
+
+.UsersWrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.IconWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    height: 32px;
+    width: 32px;
+    border-radius: 10px;
+    background-color: rgb(44, 44, 213);
+    flex-shrink: 0;
+}
+
+.ChatAchievements {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    max-width: calc(95% - 30px);
+    height: 200px;
+    max-height: 50vh;
+    background-color: rgb(5, 12, 38);
+    border-radius: 25px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.AchievementsLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 250px;
+    flex-wrap: wrap;
+}
+
+.ProgressContent {
+    display: flex;
+    align-items: center;
+    justify-content: column;
+    justify-self: flex-start;
+    width: 100px;
+}
+
+.TextContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: calc(100% - 100px);
+}
+
+.TextContent h3 {
+    text-align: center;
+    margin: 0;
+}

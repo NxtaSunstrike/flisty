@@ -1,0 +1,57 @@
+.Wrapper {
+    z-index: 999;
+    box-shadow: 0 0  12px 12px  rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px;
+    height: 30px;
+    background-color:  rgb(25, 25, 25);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.User {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TestUphoto {
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.UserOptions {
+    height: 400px;
+    width: 250px;
+    max-width: 85vw;
+    max-height: 65vh;
+    position: absolute;
+    background-color: rgb(25, 25, 25);
+    box-shadow: 0 0 12px 12px black;
+    top: 70px;
+    right: 0;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    visibility: hidden;
+}
+
+.Active {
+    visibility: visible;
+}
+

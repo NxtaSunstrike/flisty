@@ -1,0 +1,78 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+  background-color: rgb(0, 0, 0);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body::-webkit-scrollbar { width: 0; }
+
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin-left: 0px;
+  margin-top: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+button:disabled{
+  opacity: 0.5;
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.fade-enter-active  {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.fade-exit  {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.fade-exit-active  {
+  opacity: 0;
+  transform: translateX(100%);
+}
+.fade-enter-active ,
+.fade-exit-active  {
+  transition: opacity 600ms ease-in, transform 600ms;
+}
+
+
+.fadeConfirm-enter {
+  opacity: 0;
+  transform: translateY(100%);
+}
+.fadeConfirm-enter-active  {
+  opacity: 1;
+  transform: translateY(0%);
+}
+.fadeConfirm-exit  {
+  opacity: 1;
+  transform: translateY(0%);
+}
+.fadeConfirm-exit-active  {
+  opacity: 0;
+  transform: translateY(100%);
+}
+.fadeConfirm-enter-active ,
+.fadeConfirm-exit-active  {
+  transition: opacity 600ms ease-in, transform 600ms;
+}
+
+

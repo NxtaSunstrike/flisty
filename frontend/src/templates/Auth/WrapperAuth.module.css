@@ -1,0 +1,14 @@
+.Wrapper {
+    overflow-y: scroll;
+    display: flex;
+    background-color: rgb(24, 31, 56);
+    min-height: 200px;
+    width: 400px;
+    max-height: 80vh;
+    max-width: 80vw;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    transition: max-heigth 600ms ease-in;
+}

@@ -1,0 +1,35 @@
+.Container {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Progress {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: conic-gradient(rgb(44, 44, 213) 3.6deg, rgb(24, 31, 56) 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 3s ease-in;
+}
+
+.Progress:before {
+    content: ' ';
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color:  rgb(5, 12, 38);
+}
+
+.Progress span {
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}

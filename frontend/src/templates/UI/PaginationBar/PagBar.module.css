@@ -1,0 +1,45 @@
+.Wrapper::-webkit-scrollbar {display: none;}
+.navigation::-webkit-scrollbar { display: none; }
+
+.Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navigation {
+    padding: 0;
+    box-shadow: 0 0  12px 12px  rgb(0, 0, 0);
+    position: fixed;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    max-width: 95%;
+    background-color: rgb(25, 25, 25);
+    height: 52px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    overflow-x: scroll;
+    z-index: 999;
+}
+.List {
+    flex-shrink: 0;
+    z-index: 1;
+    height: 40px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.Active {
+    transition: .5s ease-in-out;
+    background-color: rgb(108, 35, 175);
+    border-radius: 10px;
+}

@@ -1,0 +1,31 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "dpg-cpkdul7sc6pc73ernjb0-a.oregon-postgres.render.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "ebalai",
+            "database": "users_wcuu",
+            "username": "nxta"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "nxta",
+            "username": "Unix",
+            "database": "Users"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "database": "Users",
+            "username": "flix",
+            "name": "Niki"
+        }
+    ]
+}
